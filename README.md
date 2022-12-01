@@ -42,21 +42,15 @@ You can quickly play with Pipenv right in your browser:
 Installation
 ------------
 
-If you\'re on MacOS, you can install Pipenv easily with Homebrew:
+using Debian Buster+:
 
-    $ brew install pipenv
-
-Or, if you\'re using Debian Buster+:
-
-    $ sudo apt install pipenv
-
-Or, if you\'re using Fedora 28:
-
-    $ sudo dnf install pipenv
+    $ sudo apt install python3-pip
+    $ pip install pipenv
+    $ echo "export PATH=$PATH:$HOME/.local/bin"
+    $ exit
     
-Or, if you\'re using FreeBSD:
+login again
 
-    # pkg install py36-pipenv
 
 Otherwise, refer to the [documentation](https://docs.pipenv.org/en/latest/install/#installing-pipenv) for instructions.
 
